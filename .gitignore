@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# PyTorch Model Weights (keep only final model)
+*.pt
+!outputs/resnet_invoice.pt
+
+# Dataset Files — Ignore all except final .npy files
+data/*
+!data/processed/
+!data/processed/X.npy
+!data/processed/y.npy
+
+# Output Images and Temporary Files
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.svg
+!outputs/tampered_examples/demo.png  # Keep demo image if used in README
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# VS Code Settings
+.vscode/
+
+# Streamlit Cache
+.streamlit/
+
+# Logs
+*.log
+
+# Gradio Cache
+gradio_cached_examples/
+
+# GitHub & LFS Warnings
+*.lfsconfig
+.gitattributes
