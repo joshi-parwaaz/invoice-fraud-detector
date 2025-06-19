@@ -12,8 +12,8 @@ This project uses the **FUTURA Synthetic Invoices Dataset**, publicly available 
 # 🧾 Invoice Tampering Detection using CNN
 
 Detect tampered or fake invoice images using a Convolutional Neural Network (CNN) trained on a custom dataset of real and synthetically altered invoices.
-
-![demo](outputs/tampered_examples/example_demo.png)
+Check deployed web application here:
+https://invoice-fraud-detector-ce58ouovow9hboanjvunul.streamlit.app/
 
 ---
 
