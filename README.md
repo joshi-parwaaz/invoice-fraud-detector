@@ -93,9 +93,8 @@ Then open http://localhost:8501 to use the web interface.
 python src/infer.py "data/tampered/tampered_6.jpg"
 ```
 
-## 🔗 Deployment (Optional)
-This project is ready for deployment to Streamlit Cloud.
-Upload the repo, select app.py as the entry point, and deploy in minutes.
+## 🔗 Deployment Link
+https://invoice-fraud-detector-ce58ouovow9hboanjvunul.streamlit.app/
 
 ## 📚 What I Learned
 - CNNs and transfer learning with ResNet18
